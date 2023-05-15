@@ -6,12 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>박윤경01</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
-    <h1>
-        <img src="./images/grafflogo.png" alt="">
-    </h1>
+    <header class="header">
+        <h1>
+            <img src="./images/grafflogo.png" alt="">
+            <span>1</span>
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="on"><a href="#01">01</a></li>
+            <li><a href="#02">02</a></li>
+            <li><a href="#03">03</a></li>
+        </ul>
+    </nav>
+    <div class="main_full">
+        <div class="section">
+            <figure>
+                <img src="./images/lesedilarona01.jpg" alt="">
+            </figure>
+            <h2>기능구현.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="section">
+            <figure>
+                <img src="./images/lesedilarona02.jpg" alt="">
+            </figure>
+            <h2>기능구현.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="section">
+            <figure>
+                <img src="./images/lesedilarona03.jpg" alt="">
+            </figure>
+            <h2>기능구현.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
+
+<!-- 설치 대신 경로 설정 ;jquery cdn 다른 이름으로 링크 저장 -->
+<!-- 적용할 파일은 가장 위에 링크, 자바스크립트는 순서대로 작성(그중에서도 내가 만든 파일은 가장 끝에) ,적용시키는 문서 순서 외울 것-->
+<!-- defer js가 마지막으로 읽을 수 있도록 설정하는 것 <script src="./js/main.js defer"></script> -->
+<!-- $->document ready js가 적용을 알림 -->
+<!-- ()는 함수->뭐해! -->
+<!-- 1.뼈대 2. 기능구현 3. 스타일링 -->
+<!-- 애니메이션을 줄 때 class를 붙이고 떼는 것이 근본 -->
+<!-- lorem숫자 tap->숫자만큼 의미없는 단어 생김 -->
